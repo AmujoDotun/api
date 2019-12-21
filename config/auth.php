@@ -42,7 +42,7 @@ return [
         ],
 
         'api' => [
-            'driver' => 'token',
+            'driver' => 'passport', //using laravel passport as a driver
             'provider' => 'users',
             'hash' => false,
         ],
